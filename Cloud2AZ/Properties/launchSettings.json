@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Cloud2AZ": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7204",
+      "launchBrowser": false
+    }
+  }
+}
