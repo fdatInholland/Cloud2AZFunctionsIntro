@@ -3,5 +3,5 @@
   <Project Path="FanInFanOutDemo/FanInFanOutDemo.csproj" Id="02006fe2-d0b7-4319-9e76-0477e5f447b2" />
   <Project Path="FunctionChaining/FunctionChaining.csproj" />
   <Project Path="FunctionTriggering/FunctionTriggering.csproj" />
-  <Project Path="Imperative/Imperative.csproj" />
+  <Project Path="Imperative/ImperativeBindingDemo.csproj" />
 </Solution>
