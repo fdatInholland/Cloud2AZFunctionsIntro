@@ -22,7 +22,7 @@ public class ImperativeBinding
     {
         string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
 
-        // Example: Dynamically calculate target container and blob path based on runtime logic
+        // Dynamically calculate target container and blob path based on runtime logic
         string category = req.Query["category"] ?? "general";
         string containerName = $"logs-{category.ToLower()}";
         string blobName = $"{DateTime.UtcNow:yyyy/MM/dd}/{Guid.NewGuid()}.json";
